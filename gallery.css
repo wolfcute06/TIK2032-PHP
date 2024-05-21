@@ -1,0 +1,194 @@
+body {
+    background-image: linear-gradient(to right, #00afb9, #fed9b7 );
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    padding: 10px 20px; 
+    border-radius: 10px;  
+    transition: all 0.3s ease;
+}
+header h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+header nav{
+    height: 15vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header ul {
+    gap: 3rem;
+    display: flex;
+    list-style: none;
+}
+header li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    align-items: right;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+header a:hover {
+    color: #f07167
+}
+header a{
+    position: relative;
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+}
+header a.active {
+    text-decoration: underline;
+}
+header .active::after,
+header a:hover::after {
+    content: "";
+    height: 2px;
+    background-color: #f07167;
+    visibility: visible;
+    transform: scaleX(1);
+}
+header a::after {
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+.copyright {
+    position: absolute;
+    right: 3%;
+    bottom: 2%;
+    }
+.pic1 {
+    position: absolute;
+    top: 18%;
+    left: 21%;
+    transition: transform .2s;
+}
+.pic1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.pic2 {
+    position: absolute;
+    top: 18%;
+    left: 37%;
+    transition: transform .2s;
+}
+.pic2:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.pic3 {
+    position: absolute;
+    top: 18%;
+    right: 32.4%;
+    transition: transform .2s;
+}
+.pic3:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.pic4 {
+    position: absolute;
+    top: 18%;
+    right: 16.4%;
+    transition: transform .2s;
+}
+.pic4:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.pic5 {
+    position: absolute;
+    top: 39%;
+    left: 15%;
+    transition: transform .2s;
+}
+.pic5:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.pic6 {
+    position: absolute;
+    top: 39%;
+    left: 31%;
+    transition: transform .2s;
+}
+.pic6:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.pic7 {
+    position: absolute;
+    top: 39%;
+    left: 47%;
+    transition: transform .2s;
+}
+.pic7:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.pic8 {
+    position: absolute;
+    top: 39%;
+    right: 22.4%;
+    transition: transform .2s;
+}
+.pic8:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.pic9 {
+    position: absolute;
+    bottom: 20%;
+    left: 26%;
+    transition: transform .2s;
+}
+.pic9:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.pic10 {
+    position: absolute;
+    bottom: 20%;
+    left: 42%;
+    transition: transform .2s;
+}
+.pic10:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.pic11 {
+    position: absolute;
+    bottom: 20%;
+    right: 27.2%;
+    transition: transform .2s;
+}
+.pic11:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.pic12 {
+    position: absolute;
+    bottom: 20%;
+    right: 11.1%;
+    transition: transform .2s;
+}
+.pic12:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

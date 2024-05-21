@@ -1,0 +1,105 @@
+body {
+    background-image: linear-gradient(to right, #00afb9, #fed9b7 );
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+header {
+    padding: 10px 20px; 
+    border-radius: 10px;  
+    transition: all 0.3s ease;
+}
+header nav{
+    height: 15vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+header ul {
+    gap: 3rem;
+    display: flex;
+    list-style: none;
+}
+header li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    align-items: right;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+header a:hover {
+    color: #f07167
+}
+header a{
+    position: relative;
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+}
+header .active::after,
+header a:hover::after {
+    content: "";
+    height: 2px;
+    background-color: #f07167;
+    visibility: visible;
+    transform: scaleX(1);
+}
+header a::after {
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+a:hover {
+    color: #f07167;
+}
+.art {
+    position: absolute;
+    right: 5%;
+    bottom: 18%;
+    font-size: smaller;
+}
+.food {
+    position: absolute;
+    right: 5%;
+    bottom: 14%;
+    font-size: smaller;
+}
+.teknologi {
+    position: absolute;
+    left: 4%;
+    top: 10%;
+    font-size: x-large;
+}
+.text {
+    position: absolute;
+    top: 16%;
+    text-indent: 50px;
+    text-align: justify;
+    margin: 20px 50px;
+}
+.image {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.copyright {
+    position: absolute;
+    right: 3%;
+    bottom: 2%;
+}
